@@ -1,0 +1,2 @@
+# Error
+Github error page
