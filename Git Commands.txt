@@ -1,0 +1,17 @@
+git init  ---> Initiate git from directory which you want to upload
+
+git add . ---> Add all files in pwd or 
+
+git commit -m "comment" ---> To commit with comments
+
+git remote add origin "url" ---> Creating remote
+
+git push origin master  ---> Push remote 
+
+git checkout -b new-branch ----> Create branch locally
+
+git push origin new-branch --->  Push branch to remote
+
+git branch -d new-branch ---> delete locally from different branch can't delete present working branch 											from itself.
+
+git push origin :new-branch ---> delete remotely
