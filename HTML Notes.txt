@@ -1,0 +1,33 @@
+*. Use method="post" to hide query string
+
+*. <Label for="elementName"> </lablel> Clicking on label itself
+enough
+
+*. #main label {} --> label inside main
+
+*. #main,label {} --> main and label	
+
+*. Put all elements in body in div id="container" and
+   #container {width : 989px; margin : 0 auto;} 
+
+*. div {position : absolute; top=5px; left:5px;} to float div
+
+*. div1 {display : inline;}
+   div1 {display : inline;} to display side by side as text
+
+   div1 {display : inline-block;}
+   div1 {display : inline-block; vertical-align : top} to display    side by side blocks top aligned
+
+*. div {float : right} just floated aligned to right with no         extra space
+
+*. list element can be horizantally by li {display : inline}
+
+*. Placing script below
+
+*. var none is undefined using typepf(variable_name)
+
+*. no need to define var msg = "hello" using msg1 creates msg1'
+
+*. "use strict"; not allows use of undefining variables
+
+*. window is a parent of webpage window.funcname global scope

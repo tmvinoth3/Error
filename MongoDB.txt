@@ -1,0 +1,31 @@
+$. use database_name --> to create or use if exists
+
+$. db --> to view present working db
+
+$. show dbs --> to view all databases(shows only there is data)
+
+$. db.dropDatabase() --> to drop db
+
+$. db.createCollection(name, options) -->name,optional
+
+$. db.createCollection("mycollection")  -->create
+   show collections --> view collections
+
+$. db.tutorialspoint.insert({"name" : "tutorialspoint"})
+   --> automatically creates collection "tutorialspoint"
+
+$. db.mycollection.drop() --> to drop collection
+
+$. db.mycol.remove({'title':'MongoDB Overview'})
+
+$. db.mycol.remove() --> to Remove or equal to truncate
+
+$. db.COLLECTION_NAME.find({},{KEY:1}) --> find 1-show 0-hide
+
+$. db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER)
+
+$. db.COLLECTION_NAME.find().sort({KEY:1}) --> 1 asce -1 desc
+
+$. db.mycol.ensureIndex({"title":1,"description":-1}) -->Index
+
+$. 
